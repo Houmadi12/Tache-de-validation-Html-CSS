@@ -1436,7 +1436,7 @@ nav > ul > li > a:hover {
             color: #ffffff;
         }
     }
-    /* très petit appareil (phones, 630px et 681px */
+    /* très petit appareil (phones, 409px et 381px */
     @media screen and (max-width: 409px) and (min-width: 381px) {
         /* Responsive navbar */
         nav ul{
@@ -1777,13 +1777,8 @@ nav > ul > li > a:hover {
             color: #ffffff;
         }
     }
-    /* très petit appareil (phones, 630px et 681px */
+    /* très petit appareil (phones, 500px et 410px */
     @media screen and (max-width: 500px) and (min-width: 410px) {
-
-        *{
-            border: 1px solid red;
-        }
-
         /* Responsive navbar */
         nav ul{
             flex-direction: column;
