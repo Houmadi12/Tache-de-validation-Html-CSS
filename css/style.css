@@ -864,7 +864,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 180vh;
+            height: 175vh;
         }
 
         .section3 h1 {
@@ -898,7 +898,7 @@ nav > ul > li > a:hover {
         }
 
         .box {
-            margin-top: 150px;
+            margin-top: 40px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1232,7 +1232,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 180vh;
+            height: 185vh;
         }
 
         .section3 h1 {
@@ -1266,7 +1266,7 @@ nav > ul > li > a:hover {
         }
 
         .box {
-            margin-top: 150px;
+            margin-top: 60px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1325,7 +1325,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 200vh;
+            height: 225vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -1573,7 +1573,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 175vh;
+            height: 190vh;
         }
 
         .section3 h1 {
@@ -1607,7 +1607,7 @@ nav > ul > li > a:hover {
         }
 
         .box {
-            margin-top: 150px;
+            margin-top: 80px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1914,7 +1914,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 175vh;
+            height: 180vh;
         }
 
         .section3 h1 {
@@ -1948,7 +1948,7 @@ nav > ul > li > a:hover {
         }
 
         .box {
-            margin-top: 150px;
+            margin-top: 90px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -2007,7 +2007,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 195vh;
+            height: 210vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -2259,7 +2259,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 175vh;
+            height: 190vh;
         }
 
         .section3 h1 {
@@ -2293,7 +2293,7 @@ nav > ul > li > a:hover {
         }
 
         .box {
-            margin-top: 150px;
+            margin-top: 90px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -2352,7 +2352,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 195vh;
+            height: 210vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -2598,7 +2598,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 185vh;
+            height: 230vh;
         }
 
         .section3 h1 {
@@ -2632,7 +2632,7 @@ nav > ul > li > a:hover {
         }
 
         .box {
-            margin-top: 150px;
+            margin-top: 70px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -2640,18 +2640,25 @@ nav > ul > li > a:hover {
             gap: 20px;
             box-sizing: border-box;
             width: 100%;
-            height: 1000px;
+            height: 200vh;
         }
 
         .box .box-item {
             width: 80%;
+            height: 60vh;
+        }
+
+        .img-box,
+        .img-box1,
+        .img-box2 {
+            height: 70%;
         }
 
         /* Responsive section 4 */
         .section4 {
             width: 100%;
             text-align: center;
-            height: 110vh;
+            height: 120vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -2681,7 +2688,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 195vh;
+            height: 250vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -2797,6 +2804,7 @@ nav > ul > li > a:hover {
 
     /* Responsive 767px et 729px */
     @media screen and (max-width: 767px) and (min-width: 729px){
+
          /* Responsive navbar */
          nav ul{
             flex-direction: column;
@@ -2930,7 +2938,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 185vh;
+            height: 210vh;
         }
 
         .section3 h1 {
@@ -3013,7 +3021,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 195vh;
+            height: 210vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -3039,7 +3047,7 @@ nav > ul > li > a:hover {
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 100vh;
+            height: 110vh;
             width: 94%;
             display: flex;
             flex-direction: column;
@@ -3242,7 +3250,7 @@ nav > ul > li > a:hover {
 
         /* Responsive section 3 */
         .section3 {
-            height: 135vh;
+            height: 145vh;
         }
 
         .section3 h1 {
@@ -3288,18 +3296,18 @@ nav > ul > li > a:hover {
             gap: 20px;
             box-sizing: border-box;
             width: 100%;
-            height: 95vh;
+            height: 100vh;
         }
 
         .box .box-item {
-            width: 80%;
+            width: 100%;
         }
 
         /* Responsive section 4 */
         .section4 {
             width: 100%;
             text-align: center;
-            height: 120vh;
+            height: 140vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -3336,6 +3344,13 @@ nav > ul > li > a:hover {
 
         /* Section 5 */
 
+        .section5 {
+            padding: 20px 20px;
+            height: 200vh;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
         .sect5-right {
             display: grid;
             grid-template-columns: 30% 30% 30%;
@@ -3350,13 +3365,6 @@ nav > ul > li > a:hover {
             width: 60%;
         }
     
-        .section5 {
-            padding: 20px 20px;
-            height: 175vh;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
         .section5 h1 {
             font-size: 20px;
         }
@@ -3379,7 +3387,7 @@ nav > ul > li > a:hover {
             margin-bottom: 40px;
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 75vh;
+            height: 80vh;
             width: 94%;
             display: flex;
             flex-direction: column;
@@ -3457,354 +3465,3 @@ nav > ul > li > a:hover {
             color: #ffffff;
         }
     }
-    /* Responsiveté pour les telephone
-    @media screen and (max-width: 768px) and (min-width: 320px) {
-        
-    }
-
-    /* Responsiveté pour les tablettes */
-    /* @media screen and (max-width:819px) and (min-width: 768px) {  */
-         /* Navbar */
-         /* nav > ul {
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
-        }
-
-        nav > ul > li > a {
-            font-size: 15px;
-        } */
-
-        /* Section 2 */
-        /* .section2 {
-            grid-template-columns: 40% 50%;
-            grid-template-rows: 45vh;
-            gap: 25px;
-        
-        }
-        
-        .sociaux-link-card {
-            margin-top: 50px;
-            gap: 20px;
-        }
-
-        .img-card {
-            height: 40%;
-        }
-
-        .card-left p {
-            margin-bottom: 10px;
-            color: #717275;
-            font-size: 17px;
-            font-weight: 400;
-        } */
-
-        /* Section 3 */
-        /* .section3 {
-            height: 170vh;
-        }
-
-        .section3 > h1 {
-            font-size: 36px;
-        }
-
-        .nav > ul > li {
-            margin: 20px;
-        }    
-
-        .nav > ul > li > a{
-            padding: 11px 20px;
-            font-size: 15px;
-         }
-
-         .box {
-            display: grid;
-            grid-template-columns: 45% 45%;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .box-item {
-            width: 100%;
-        }      
-
-        .img-box, .img-box1, .img-box2 {
-            height: 190px;
-        } */
-
-        /* Section 4 */
-        /* .section4 .bloc {
-            display: grid;
-            grid-template-columns: 15% 60%;
-        }
-
-        .bloc .text-top {
-            margin-top: 10px;
-            margin-bottom: 40px;
-        }
-
-        .bloc .text-middle {
-            margin-bottom: 40px;
-        }
-
-        .link-more {
-            margin-top: 10px;
-        }
-
-        .section4 {
-            height: 150vh;
-        }
-
-        .bloc .sect-left {
-            margin-top: -210px;
-            height: 85vh;
-        } */
-
-        /* Section 5 */
-        /* .section5 {
-            padding: 30px 10px;
-            height: 115vh;
-            width: 100%;
-        }
-
-
-        .section5 h1 {
-            font-size: 38px;
-        }
-
-        .section5 > .main {
-            width: 100%;
-            grid-template-columns: 54% 45%;
-            grid-template-rows: 89vh;
-            gap: 10px;
-        }
-
-        .text-box h3 {
-            line-height: 33px;
-        }
-
-        .text-box p {
-            margin-bottom: 10px;
-            font-family: 'montserrat', sans-serif;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 20px;
-        } */
-
-        /* Section 6 */
-
-        /* .section6 {
-            padding: 20px 20px;
-            height: 80vh;
-            width: 94.5%;
-        }
-        
-        .section6 h1 {
-            font-size: 38px;
-            line-height: 60px;
-        }
-
-        .section6 > .sect6 {
-            display: grid;
-            grid-template-columns: 45% 45%;
-            justify-content: center;
-            gap: 2%;
-        }
-
-        .left-sect6 {
-            grid-column: 1 / 3;
-        } */
-
-        /* footer */
-        /* footer {
-            padding: 0;
-            margin-bottom: 20px;
-            display: grid;
-            grid-template-columns: 46% 49%;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .ftr-left h3, .ftr-middle h3 {
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }
-
-        .ftr-right button {
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-    } */
-
-
-    /* @media screen and (max-width:1024px) and (min-width: 820px) { */
- 
-        /* Navbar */
-        /* nav > ul {
-            display: flex;
-            flex-direction: row;
-            gap: 15px;
-        }
-
-        nav > ul > li > a {
-            font-size: 15px;
-        } */
-
-        /* Section 2 */
-        /* .section2 {
-            grid-template-columns: 40% 50%;
-            grid-template-rows: 46vh;
-            gap: 25px;
-        
-        }
-        
-        .sociaux-link-card {
-            margin-top: 50px;
-            gap: 20px;
-        }
-
-        .img-card {
-            height: 30%;
-        } */
-
-        /* Section 3 */
-        /* .section3 {
-            height: 170vh;
-        }
-
-        .section3 > h1 {
-            font-size: 36px;
-        }
-
-        .nav > ul > li {
-            margin: 20px;
-        }    
-
-        .nav > ul > li > a{
-            padding: 11px 20px;
-            font-size: 15px;
-         }
-
-         .box {
-            display: grid;
-            grid-template-columns: 45% 45%;
-            align-items: center;
-            justify-content: space-around;
-        }
-
-        .box-item {
-            width: 100%;
-        }      
-
-        .img-box, .img-box1, .img-box2 {
-            height: 160px;
-        } */
-
-        /* Section 4 */
-        /* .section4 .bloc {
-            display: grid;
-            grid-template-columns: 15% 60%;
-        }
-
-        .bloc .text-top {
-            margin-top: 10px;
-            margin-bottom: 40px;
-        }
-
-        .bloc .text-middle {
-            margin-bottom: 40px;
-        }
-
-        .link-more {
-            margin-top: 10px;
-        }
-
-        .section4 {
-            height: 150vh;
-        }
-
-        .bloc .sect-left {
-            margin-top: -150px;
-            height: 80vh;
-        } */
-
-        /* Section 5 */
-        /* .section5 {
-            padding: 30px 10px;
-            height: 115vh;
-            width: 100%;
-        }
-
-
-        .section5 h1 {
-            font-size: 38px;
-        }
-
-        .section5 > .main {
-            width: 100%;
-            grid-template-columns: 54% 45%;
-            grid-template-rows: 79vh;
-            gap: 10px;
-        }
-
-        .text-box h3 {
-            line-height: 33px;
-        }
-
-        .text-box p {
-            margin-bottom: 10px;
-            font-family: 'montserrat', sans-serif;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 20px;
-        } */
-
-        /* Section 6 */
-
-        /* .section6 {
-            padding: 20px 20px;
-            height: 80vh;
-            width: 95%;
-        }
-
-        .section6 h1 {
-            font-size: 38px;
-            line-height: 60px;
-        }
-
-        .section6 > .sect6 {
-            display: grid;
-            grid-template-columns: 45% 45%;
-            justify-content: center;
-            gap: 2%;
-        }
-
-        .left-sect6 {
-            grid-column: 1 / 3;
-        } */
-
-        /* footer */
-        /* footer {
-            padding: 0;
-            margin-bottom: 20px;
-            display: grid;
-            grid-template-columns: 46% 49%;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .ftr-left h3, .ftr-middle h3 {
-            margin-bottom: 20px;
-            margin-top: 20px;
-        }
-
-        .ftr-right button {
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-    }  */
-
-    /* Responsivité pour les large écran*/
-    
