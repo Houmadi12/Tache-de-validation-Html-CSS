@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     /* border: 1px solid red;  */
+    box-sizing: border-box;
 }
 
 body{
@@ -285,7 +286,7 @@ nav > ul > li > a:hover {
 }
 
 .sociaux-link-card {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -547,7 +548,7 @@ nav > ul > li > a:hover {
     .section5 {
         margin: 0;
         padding: 90px 40px;
-        height: 115vh;
+        height: 135vh;
         width: 100%;
         box-sizing: border-box;
     }
@@ -583,7 +584,7 @@ nav > ul > li > a:hover {
     .text-box h3{
         font-family: 'montserrat',sans-serif;
         font-weight: 600;
-        font-size: 24px;
+        font-size: clamp(12px, 4vw, 20px);
         line-height: 50px;
     }
 
@@ -591,7 +592,7 @@ nav > ul > li > a:hover {
         margin-bottom: 40px;
         font-family: 'montserrat',sans-serif;
         font-weight: 400;
-        font-size: 18px;
+        font-size: clamp(10px, 16px, 19px);
         line-height: 30px;
     }
     /* Fin section 5 */
@@ -600,8 +601,8 @@ nav > ul > li > a:hover {
     .section6 {
         background-color: #f0f8ff;
         padding: 40px 20px;
-        height: 50vh;
-        width: 97.5%;
+        height: 70vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
@@ -728,7 +729,6 @@ nav > ul > li > a:hover {
     }
 
     @media screen and (max-width: 320px) {
-
          /* Responsive navbar */
          nav ul{
             flex-direction: column;
@@ -767,17 +767,16 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 60vh;
         }
 
         .section1 h1 {
-            margin-top: 0px;
-            /* padding-top: 20px; */
+            margin-top: 20px;
             font-size: 20px;
         }
 
         .section1 h5 {
-            padding-top: 20px;
+            padding-top: 5px;
             font-size: 15px;
         }
 
@@ -785,6 +784,7 @@ nav > ul > li > a:hover {
             /* background: red; */
             margin-top: 30px;
             width: 80%;
+            height: 17%;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -794,22 +794,23 @@ nav > ul > li > a:hover {
         }
 
         .box-search .input-search input {
-            margin-left: -10%;
+            padding-left: 20px;
             box-shadow: none;
             outline: 0;
             font-size: 2rem;
             width: 130%;
+            height: 10%;
             color: black;
         }
 
         .box-search .input-search input::placeholder {
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .box-search .btn-search > button{
-            padding: 10px 10px;
-            width: 100px;
-            font-size: 20px;
+            padding: 5px 5px;
+            width: 80px;
+            font-size: 15px;
         }
 
         .sociaux-link-card a {
@@ -823,7 +824,7 @@ nav > ul > li > a:hover {
 
         
         .box-search .search ion-icon {
-            font-size: 50px;
+            font-size: 30px;
         }
 
 
@@ -847,8 +848,33 @@ nav > ul > li > a:hover {
             gap: 20px;
         }
 
+        .sect2-title > div {
+            padding: 7px;
+            background: #00B0FF;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .cr-title div {
+            background-color: #536DFE;
+            padding: 6px;
+            height: 30px;
+            color: white;
+        }
+
         .img-card {
             height: 30%;
+        }
+
+        .btn-card a {
+            padding: 10px 20px;
+            background: #80d0c7;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            color: #ffffff;
+            border: 1px solid white;
+            border-radius: 50px;
         }
 
         .sociaux-link-card a ion-icon {
@@ -939,7 +965,7 @@ nav > ul > li > a:hover {
         /* Responsive section 4 */
         .section4 {
             padding: 0 10px;
-            width: 92%;
+            width: 100%;
             text-align: center;
             height: 150vh;
             display: flex;
@@ -975,7 +1001,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 210vh;
+            height: 240vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -1010,7 +1036,7 @@ nav > ul > li > a:hover {
             background-color: #f0f8ff;
             padding: 40px 20px;
             height: 120vh;
-            width: 86.5%;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -1033,6 +1059,20 @@ nav > ul > li > a:hover {
             gap: 2%;
         }
 
+        .sect6 h3 {
+            margin-bottom: 1rem;
+            font-family: 'montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 17px;
+        }
+
+        .sect6 p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #717275;
+            line-height: 2.5rem;
+        }
 
         /* Responsive footer */
         footer {
@@ -1135,17 +1175,16 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 60vh;
         }
 
         .section1 h1 {
-            margin-top: 0px;
-            /* padding-top: 20px; */
-            font-size: 20px;
+            margin-top: 10px;
+            font-size: 24px;
         }
 
         .section1 h5 {
-            padding-top: 20px;
+            padding-top: 5px;
             font-size: 15px;
         }
 
@@ -1153,6 +1192,7 @@ nav > ul > li > a:hover {
             /* background: red; */
             margin-top: 30px;
             width: 80%;
+            height: 15%;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -1162,22 +1202,24 @@ nav > ul > li > a:hover {
         }
 
         .box-search .input-search input {
-            margin-left: -10%;
             box-shadow: none;
+            padding-left: 40px;
+            padding-bottom: 10px;
             outline: 0;
             font-size: 2rem;
-            width: 130%;
+            width: 160%;
+            height: 30px;
             color: black;
         }
 
         .box-search .input-search input::placeholder {
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .box-search .btn-search > button{
-            padding: 10px 10px;
-            width: 100px;
-            font-size: 20px;
+            padding: 5px 5px;
+            width: 70px;
+            font-size: 15px;
         }
 
         .sociaux-link-card a {
@@ -1191,9 +1233,8 @@ nav > ul > li > a:hover {
 
         
         .box-search .search ion-icon {
-            font-size: 50px;
+            font-size: 30px;
         }
-
 
         /* Reponsive section 2 */
         .section2 {
@@ -1201,7 +1242,7 @@ nav > ul > li > a:hover {
             height: 100vh;
             display: grid;
             grid-template-columns: 80%;
-            grid-template-rows: 33% 39%;
+            grid-template-rows: 33% 45%;
             gap: 120px;
             justify-content: center;
     
@@ -1226,9 +1267,22 @@ nav > ul > li > a:hover {
 
         .card-right p,
         .card-left p{
-            font-size: 16px;
+            font-size: 15px;
+        }
+        
+        .sect2-title > div {
+            padding: 7px;
+            background: #00B0FF;
+            border-radius: 5px;
+            height: 30px;
         }
 
+        .cr-title div {
+            background-color: #536DFE;
+            padding: 6px;
+            height: 30px;
+            color: white;
+        }
 
         /* Responsive section 3 */
         .section3 {
@@ -1325,7 +1379,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 225vh;
+            height: 210vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -1351,8 +1405,8 @@ nav > ul > li > a:hover {
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 100vh;
-            width: 89%;
+            height: 130vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -1476,13 +1530,12 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 60vh;
         }
 
         .section1 h1 {
-            margin-top: 0px;
-            /* padding-top: 20px; */
-            font-size: 20px;
+            margin-top: 20px;
+            font-size: 25px;
         }
 
         .section1 h5 {
@@ -1494,6 +1547,7 @@ nav > ul > li > a:hover {
             /* background: red; */
             margin-top: 30px;
             width: 80%;
+            height: 20%;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -1503,38 +1557,29 @@ nav > ul > li > a:hover {
         }
 
         .box-search .input-search input {
-            margin-left: -10%;
+            padding-left: 30px;
+            margin-bottom: 10px;
             box-shadow: none;
             outline: 0;
             font-size: 2rem;
-            width: 130%;
+            width: 180%;
             color: black;
         }
 
         .box-search .input-search input::placeholder {
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .box-search .btn-search > button{
-            padding: 10px 10px;
-            width: 100px;
-            font-size: 20px;
-        }
-
-        .sociaux-link-card a {
-            padding: 3px;
-            border-radius: 100%;
-            background-color: #80d0c7;
-            height:px;
-            display: flex;
-            align-items: center;
+            padding: 5px 5px;
+            width: 90px;
+            font-size: 15px;
         }
 
         
         .box-search .search ion-icon {
-            font-size: 50px;
+            font-size: 40px;
         }
-
 
         /* Reponsive section 2 */
         .section2 {
@@ -1552,6 +1597,31 @@ nav > ul > li > a:hover {
             height: 12vh;
         }
 
+        .sect2-title > div {
+            padding: 7px;
+            background: #00B0FF;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .cr-title div {
+            background-color: #536DFE;
+            padding: 6px;
+            height: 30px;
+            color: white;
+        }
+
+        .sociaux-link-card a {
+            padding: 5x;
+            border-radius: 100%;
+            background-color: #80d0c7;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+
         .sociaux-link-card {
             margin-top: 40px;
             display: flex;
@@ -1561,7 +1631,7 @@ nav > ul > li > a:hover {
         }
 
         .sociaux-link-card a ion-icon {
-            font-size: 15px;
+            font-size: 30px;
             color: #ffffff;
         }
 
@@ -1632,7 +1702,7 @@ nav > ul > li > a:hover {
         .section4 {
             width: 100%;
             text-align: center;
-            height: 120vh;
+            height: 130vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1666,7 +1736,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 170vh;
+            height: 175vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -1692,8 +1762,8 @@ nav > ul > li > a:hover {
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 100vh;
-            width: 89%;
+            height: 120vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -1817,17 +1887,16 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 60vh;
         }
 
         .section1 h1 {
-            margin-top: 0px;
-            /* padding-top: 20px; */
-            font-size: 20px;
+            margin-top: 20px;
+            font-size: 26px;
         }
 
         .section1 h5 {
-            padding-top: 20px;
+            padding-top: 8px;
             font-size: 15px;
         }
 
@@ -1835,6 +1904,7 @@ nav > ul > li > a:hover {
             /* background: red; */
             margin-top: 30px;
             width: 80%;
+            height: 15%;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -1849,17 +1919,18 @@ nav > ul > li > a:hover {
             outline: 0;
             font-size: 2rem;
             width: 130%;
+            height: 30px;
             color: black;
         }
 
         .box-search .input-search input::placeholder {
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .box-search .btn-search > button{
-            padding: 10px 10px;
-            width: 100px;
-            font-size: 20px;
+            padding: 5px 5px;
+            width: 80px;
+            font-size: 15px;
         }
 
         .sociaux-link-card a {
@@ -1873,7 +1944,7 @@ nav > ul > li > a:hover {
 
         
         .box-search .search ion-icon {
-            font-size: 50px;
+            font-size: 30px;
         }
 
 
@@ -1901,8 +1972,23 @@ nav > ul > li > a:hover {
             gap: 20px;
         }
 
+        .sect2-title > div {
+            padding: 7px;
+            background: #00B0FF;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .sociaux-link-card a{
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .sociaux-link-card a ion-icon {
-            font-size: 15px;
+            font-size: 30px;
             color: #ffffff;
         }
 
@@ -1973,7 +2059,7 @@ nav > ul > li > a:hover {
         .section4 {
             width: 100%;
             text-align: center;
-            height: 120vh;
+            height: 135vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -2007,7 +2093,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 210vh;
+            height: 205vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -2033,8 +2119,8 @@ nav > ul > li > a:hover {
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 100vh;
-            width: 91%;
+            height: 120vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -2162,7 +2248,7 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 60vh;
         }
 
         .section1 h1 {
@@ -2180,6 +2266,7 @@ nav > ul > li > a:hover {
             /* background: red; */
             margin-top: 30px;
             width: 80%;
+            height: 20%;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -2198,11 +2285,11 @@ nav > ul > li > a:hover {
         }
 
         .box-search .input-search input::placeholder {
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .box-search .btn-search > button{
-            padding: 10px 10px;
+            padding: 5px 5px;
             width: 100px;
             font-size: 20px;
         }
@@ -2218,7 +2305,7 @@ nav > ul > li > a:hover {
 
         
         .box-search .search ion-icon {
-            font-size: 50px;
+            font-size: 30px;
         }
 
 
@@ -2227,11 +2314,25 @@ nav > ul > li > a:hover {
             background: #82d1c4;
             height: 100vh;
             display: grid;
-            grid-template-columns: 80%;
+            grid-template-columns: 70%;
             grid-template-rows: 33% 39%;
             gap: 120px;
             justify-content: center;
     
+        }
+
+        .sect2-title > div {
+            padding: 7px;
+            background: #00B0FF;
+            border-radius: 5px;
+            height: 30px;
+        }
+
+        .cr-title div {
+            background-color: #536DFE;
+            padding: 6px;
+            height: 30px;
+            color: white;
         }
 
         .img-card {
@@ -2352,7 +2453,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 210vh;
+            height: 200vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -2378,8 +2479,8 @@ nav > ul > li > a:hover {
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 100vh;
-            width: 95%;
+            height: 120vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -2501,7 +2602,7 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 70vh;
         }
 
         .section1 h1 {
@@ -2518,7 +2619,8 @@ nav > ul > li > a:hover {
         .section1 .box-search {
             /* background: red; */
             margin-top: 30px;
-            width: 80%;
+            width: 60%;
+            height: 15%;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -2537,13 +2639,13 @@ nav > ul > li > a:hover {
         }
 
         .box-search .input-search input::placeholder {
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .box-search .btn-search > button{
-            padding: 10px 10px;
+            padding: 5px 5px;
             width: 100px;
-            font-size: 20px;
+            font-size: 15px;
         }
 
         .sociaux-link-card a {
@@ -2557,7 +2659,7 @@ nav > ul > li > a:hover {
 
         
         .box-search .search ion-icon {
-            font-size: 50px;
+            font-size: 30px;
         }
 
 
@@ -2566,7 +2668,7 @@ nav > ul > li > a:hover {
             background: #82d1c4;
             height: 100vh;
             display: grid;
-            grid-template-columns: 80%;
+            grid-template-columns: 60%;
             grid-template-rows: 33% 39%;
             gap: 120px;
             justify-content: center;
@@ -2581,9 +2683,29 @@ nav > ul > li > a:hover {
             gap: 20px;
         }
 
-        .sociaux-link-card a {
-            padding: 10px;
+        .sect2-title > div {
+            padding: 7px;
+            background: #00B0FF;
+            border-radius: 5px;
+            height: 30px;
         }
+
+        .cr-title div {
+            background-color: #536DFE;
+            padding: 6px;
+            height: 30px;
+            color: white;
+        }
+
+        .sociaux-link-card a {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
 
         .sociaux-link-card a ion-icon {
             font-size: 30px;
@@ -2688,7 +2810,7 @@ nav > ul > li > a:hover {
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
-            height: 250vh;
+            height: 210vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -2714,8 +2836,8 @@ nav > ul > li > a:hover {
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 100vh;
-            width: 94%;
+            height: 120vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -2841,7 +2963,7 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 60vh;
+            height: 70vh;
         }
 
         .section1 h1 {
@@ -2906,7 +3028,7 @@ nav > ul > li > a:hover {
             background: #82d1c4;
             height: 100vh;
             display: grid;
-            grid-template-columns: 80%;
+            grid-template-columns: 60%;
             grid-template-rows: 33% 39%;
             gap: 120px;
             justify-content: center;
@@ -2922,7 +3044,11 @@ nav > ul > li > a:hover {
         }
 
         .sociaux-link-card a {
-            padding: 10px;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .sociaux-link-card a ion-icon {
@@ -2935,6 +3061,13 @@ nav > ul > li > a:hover {
             font-size: 16px;
         }
 
+        .cr-title div {
+            background-color: #536DFE;
+            padding: 6px;
+            height: 30px;
+            color: white;
+        }
+
 
         /* Responsive section 3 */
         .section3 {
@@ -2942,7 +3075,6 @@ nav > ul > li > a:hover {
         }
 
         .section3 h1 {
-            /* margin-top: 10px; */
             font-size: 25px;
         }
 
@@ -2984,7 +3116,7 @@ nav > ul > li > a:hover {
         }
 
         .box .box-item {
-            width: 80%;
+            width: 60%;
         }
 
         /* Responsive section 4 */
@@ -3017,7 +3149,7 @@ nav > ul > li > a:hover {
         .bloc .sect-left {
             display: none;
         }
-    
+
         /* Responsive Section 5 */
         .section5 {
             padding: 20px 20px;
@@ -3028,6 +3160,7 @@ nav > ul > li > a:hover {
 
         .section5 h1 {
             font-size: 20px;
+            text-align: center;
         }
 
         .section5 h1 br {
@@ -3043,12 +3176,29 @@ nav > ul > li > a:hover {
             gap: 20px;
         }
 
+        .text-box p {
+            margin-bottom: 40px;
+            font-family: 'montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .text-box h3 {
+            font-family: 'montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 50px;
+            text-align: center;
+        }
+
         /* Section 6  */
         .section6 {
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 110vh;
-            width: 94%;
+            height: 120vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -3153,7 +3303,7 @@ nav > ul > li > a:hover {
         /* Responsive section 1 */
         .section1 {
             padding: 90px 0px;
-            height: 40vh;
+            height: 70vh;
         }
 
         .section1 h1 {
@@ -3216,7 +3366,7 @@ nav > ul > li > a:hover {
         /* Reponsive section 2 */
         .section2 {
             background: #82d1c4;
-            height: 40vh;
+            height: 50vh;
             display: grid;
             grid-template-columns: 40% 40%;
             grid-template-rows: 85%;
@@ -3234,7 +3384,12 @@ nav > ul > li > a:hover {
         }
 
         .sociaux-link-card a {
-            padding: 10px;
+            /* padding: 10px; */
+            height: 30px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .sociaux-link-card a ion-icon {
@@ -3303,6 +3458,10 @@ nav > ul > li > a:hover {
             width: 100%;
         }
 
+        .img-box {
+            height: 60%;
+        }
+
         /* Responsive section 4 */
         .section4 {
             width: 100%;
@@ -3346,7 +3505,7 @@ nav > ul > li > a:hover {
 
         .section5 {
             padding: 20px 20px;
-            height: 200vh;
+            height: 185vh;
             width: 100%;
             box-sizing: border-box;
         }
@@ -3382,13 +3541,29 @@ nav > ul > li > a:hover {
             gap: 20px;
         }
 
+        .text-box h3 {
+            margin-top: 50px;
+            font-family: 'montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 50px;
+        }
+
+        .text-box p {
+            margin-bottom: 40px;
+            font-family: 'montserrat', sans-serif;
+            font-weight: 400;
+            font-size: clamp(16px, 2vw, 19px);
+            line-height: 30px;
+        }
+
         /* Section 6  */
         .section6 {
             margin-bottom: 40px;
             background-color: #f0f8ff;
             padding: 40px 20px;
-            height: 80vh;
-            width: 94%;
+            height: 90vh;
+            width: 100%;
             display: flex;
             flex-direction: column;
             text-align: center;
